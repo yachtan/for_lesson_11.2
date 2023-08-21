@@ -1,3 +1,7 @@
 def func(str_text):
-    "переводит первые буквы текста в заглавные"
+    """перевод первых букв в заглавные"""
     return str_text.title()
+
+def func_2(str_text):
+    """перевод всех букв в заглавные"""
+    return str_text.upper()
